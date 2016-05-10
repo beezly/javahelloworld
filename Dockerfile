@@ -10,3 +10,5 @@ RUN javac -d bin src/HelloWorld.java
 RUN apt-get update && apt-get -y install vim
 
 ENTRYPOINT ["java", "-cp", "bin", "HelloWorld"]
+
+# Inconsequential Commit
